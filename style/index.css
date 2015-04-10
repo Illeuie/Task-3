@@ -1,0 +1,375 @@
+body{
+	margin: 0;
+	font-family: "PT Sans", "sans-serif","Quicksand","Helvetica";
+	min-height: 800px;
+}
+header{
+	border
+}
+.top-nav{
+	height: 50px;
+	background:#66656A;
+}
+.nav a{
+	color: #fff;
+	font-family: "PT Sans", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-shadow: 0 -1px 1px rgba(0,0,0,.71); 
+	text-decoration: none;
+	padding: 20px;
+}
+.nav{
+	position: absolute;
+	left: 300px;
+	padding-top: 11px;
+}
+.hov{
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	background: #716f73;
+	box-shadow: 0 2px 0 rgba(255,255,255,.3), 0 0 0 1px rgba(255,255,255,.5), inset 0 1px 4px rgba(0,0,0,.07), inset 0 0 32px rgba(0,0,0,.24)
+}
+.hov2{
+	border-right: 1px solid #000;
+	box-shadow: 0 2px 0 rgba(255,255,255,.3); 
+}
+.form-text:focus{
+	border-radius: 15px / 16px;
+	color:#ffffff;
+}
+input:focus{
+	outline: none;
+}
+input::-webkit-input-placeholder { color: #ffffff; }
+.login{
+	float: right;
+	margin-right: 180px;
+	position: relative;
+	bottom: 7px;
+}
+.login li{
+	display: inline;
+	margin-right: 20px;
+}
+.login input{
+	border-radius: 15px / 16px;
+	background-color: #000;
+	height: 27px;
+	width:150px;
+	padding-left: 10px;
+	border: 1px solid #000;
+	font-size: 12px;
+	color:#fff;
+}
+.second-nav{
+	position: relative;
+	background-color: #F5F5F5;
+}
+.logo{
+	color: #358BBE; 
+	font-family: "Quicksand";
+	font-size: 28px;
+	font-weight: bold;
+	position: absolute;
+	top: 30px;
+	left: 292px;
+}
+.logo span2{
+	color: #358BBE; 
+	font-family: "Quicksand";
+	font-size: 7px;
+	font-weight: bold;
+	position: relative;
+	bottom: 15px;
+	right: 5px;
+}
+.logo span{
+	color:#34566E;
+}
+.nav-2{
+	position: absolute;
+	left: 450px;
+	top:37px;
+}
+.main-menu{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	border-left: 1px solid #ccc;
+	position: relative;
+	z-index: 5;
+}
+.main-menu img{
+	position: relative;
+	top:5px;
+	right: 2px;
+}
+.main-menu a{
+	display: block;
+	text-decoration: none;
+	color: #676769; 
+	font-family: "PT Sans", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-shadow: 0 1px 0 #fff;
+}
+.main-menu >li{
+	display: inline-block;
+	margin-left:50px; 
+	position: relative;
+}
+.main-menu .sub-menu{
+	display:none;
+    position:absolute;
+	list-style: none;
+	padding:10px;
+	margin: 0px;
+	z-index: 10;
+	width: 75px; 
+	border:1px solid #10C2EF; 
+	top:30px;
+}
+.sub-menu:after, .arrow-div:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.sub-menu:after {
+	border-color: rgba(241, 36, 139, 0);
+	border-bottom-color: #10C2EF;
+	border-width: 5px;
+	margin-left: -5px;
+}
+.sub-menu:before {
+	border-color: rgba(15, 221, 50, 0);
+	border-bottom-color: #0fdd32;
+	border-width: 6px;
+	margin-left: -6px;
+}
+.sub-menu a{
+	display: block;
+	padding: 10px 0 0 20px;
+}
+.main-menu>li:hover >.sub-menu{
+    display:block;
+}
+.baner{
+	background: #e9e5dd url('../image/paypaul.png') 0px -111px no-repeat;
+	height: 410px;
+	position: relative;
+	top: 85px;
+	border-top: 2px solid#ccc;
+}
+.text-baner h2{
+	color: #0073bf; 
+	font-family: "Helvetica";
+	font-size: 34px;
+	text-shadow: 0 1px 0 #fff;
+}
+.text-baner p{
+	color: #919191;
+	font-family: "Helvetica";
+	font-size: 17px;
+	text-shadow: 0 1px 0 #fff;
+	display: block;
+	position: absolute;
+	bottom: -15px; 
+}
+.text-baner{
+	position: absolute;
+	left: 300px;
+	top: 30px;
+}
+.botom1{
+	font-family: "Helvetica";
+	font-size: 13px;
+	position: relative;
+	left: 300px;
+	top: 150px;
+	width: 269px;
+	height: 50px;
+	border: 1px solid #d3d0c8; /* stroke */
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	background: #ffffff;
+	padding-left: 25px;
+}
+.botom1 span{
+	position: absolute;
+	bottom: 3px;
+}
+.botom1 a{
+	text-decoration: none;
+	color: #0073bf;  
+}
+.botom2{
+	width: 298px;
+	height: 110px;
+	border: 1px solid #d3d0c8; 
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px; 
+	background: #ffffff;
+	position: absolute;
+	left: 300px;
+	top: 230px;
+}
+.botom2 a{
+	text-decoration: none;
+}
+.botom2 p{
+	color: #676569; 
+	font-family: "Helvetica";
+	font-size: 13px;
+	text-align: center;
+}
+.botom3{
+	color: #fff; 
+	font-family: "PT Sans", sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-shadow: 0 -1px 1px rgba(0,0,0,.71);
+	width: 241px;
+	height: 39px;
+	border: 1px solid #0073bf;
+	background: #2683E6;
+	border-radius: 3px; 
+	position: absolute;
+	left: 26px;
+}
+.botom3 span{
+	position: relative;
+	display: block;
+	left: 50px;
+	top: 10px;
+}
+
+.feature{
+	position: relative;
+	background: url('../image/pay.png') no-repeat 275px 100px;
+	height: 300px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 50px;
+}
+.web h2{
+	color: #7e7e7e; 
+	font-family: "Helvetica";
+	font-size: 29px;
+	text-shadow: 0 1px 0 #fff;
+}
+.web p{
+		color: #7e7e7e; 
+	font-family: "Helvetica";
+	font-size: 13px;
+	text-shadow: 0 1px 0 #fff;
+}
+.web{
+	width: 300px;
+	position: absolute;
+	left: 300px;
+	top: 130px;
+}
+.Design h2{
+	color: #7e7e7e; 
+	font-family: "Helvetica";
+	font-size: 29px;
+	text-shadow: 0 1px 0 #fff;
+}
+.Design p{
+	color: #7e7e7e; 
+	font-family: "Helvetica";
+	font-size: 13px;
+	text-shadow: 0 1px 0 #fff;
+}
+.Design{
+	width: 300px;
+	position: absolute;
+	left: 620px;
+	top: 130px;
+}
+.Simplicity h2{
+	color: #7e7e7e; 
+	font-family: "Helvetica";
+	font-size: 29px;
+	text-shadow: 0 1px 0 #fff;
+}
+.Simplicity p{
+	color: #7e7e7e; 
+	font-family: "Helvetica";
+	font-size: 13px;
+	text-shadow: 0 1px 0 #fff;
+}
+.Simplicity{
+	width: 300px;
+	position: absolute;
+	left: 940px;
+	top: 130px;
+}
+.feature a{
+	color: #0073bf; 
+	font-family: "Helvetica";
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.feature-bot{
+	left: 240px;
+	position: absolute;
+	top:350px;
+	list-style: none;
+}
+.feature-bot a{
+	color: #5f5f63; 
+	font-family: "Helvetica";
+	font-size: 12px;
+	font-weight: bold;
+	text-shadow: 0 1px 0 #fff;
+	display: block;
+}
+.feature-bot li{
+	display: inline-block;
+	padding-left: 25px;
+}
+footer{
+	height: 270px;
+	background-color: #67676b;
+	margin-top: 50px;
+	position: relative;
+}
+.shape2{
+	color: #fff; 
+	font-family: "Helvetica";
+	font-size: 10px;
+	margin-left: 300px;
+	width: 750px;
+	line-height: 1.5;
+	position: absolute;
+	top:70px;
+}
+.shape{
+	top: 30px;
+	position: relative;
+	padding-left: 250px;
+	list-style: none;
+	
+}
+.shape a{
+	color: #fff; 
+	font-family: "Helvetica";
+	font-size: 12px;
+	display: block;
+	text-decoration: none;
+}
+.shape li {
+	display: inline-block;
+	margin-left: 15px;
+
+}
