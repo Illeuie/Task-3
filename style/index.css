@@ -164,6 +164,9 @@ input::-webkit-input-placeholder { color: #ffffff; }
 .main-menu>li:hover >.sub-menu{
     display:block;
 }
+.main-menu .sub-menu a:hover{
+	background: #04BFF5;
+}
 .baner{
 	background: #e9e5dd url('../image/paypaul.png') 0px -111px no-repeat;
 	height: 410px;
